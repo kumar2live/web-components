@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Component User Card</title>
+</head>
+
+<body>
+
+  <user-card name="Some guy" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+    <div slot="email">
+      someguy@email.com
+    </div>
+    <div slot="phone">
+      1234512345
+    </div>
+  </user-card>
+  <user-card name="Some Gal" avatar="https://randomuser.me/api/portraits/women/3.jpg">
+    <div slot="email">
+      somegirl@email.com
+    </div>
+    <div slot="phone">
+      5612182323
+    </div>
+  </user-card>
+  <script src="userCard.js"></script>
+</body>
+
+</html>
